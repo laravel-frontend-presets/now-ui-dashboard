@@ -21,7 +21,6 @@ $factory->define(App\User::class, function (Faker $faker) {
         'email_verified_at' => now(),
         'password' => Hash::make('secret'), // secret
         'remember_token' => str_random(10),
-        'role_id' => 3,
         'created_at' => now(),
         'updated_at' => now()
     ];

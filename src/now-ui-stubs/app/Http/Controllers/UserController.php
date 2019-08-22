@@ -2,18 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Role;
 use App\User;
 use App\Http\Requests\UserRequest;
 use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
-    public function __construct()
-    {
-        $this->authorizeResource(User::class);
-    }
-
     /**
      * Display a listing of the users
      *
@@ -22,20 +16,17 @@ class UserController extends Controller
      */
     public function index(User $model)
     {
-        $this->authorize('manage-users', User::class);
-
-        return view('users.index', ['users' => $model->with('role')->get()]);
+        return view('users.index', ['users' => $model->paginate(15)]);
     }
 
     /**
      * Show the form for creating a new user
      *
-     * @param  \App\Role  $model
      * @return \Illuminate\View\View
      */
-    public function create(Role $model)
+    public function create()
     {
-        return view('users.create', ['roles' => $model->get(['id', 'name'])]);
+        return view('users.create');
     }
 
     /**
@@ -47,10 +38,7 @@ class UserController extends Controller
      */
     public function store(UserRequest $request, User $model)
     {
-        $model->create($request->merge([
-            'picture' => $request->photo ? $request->photo->store('profile', 'public') : null,
-            'password' => Hash::make($request->get('password'))
-        ])->all());
+        $model->create($request->merge(['password' => Hash::make($request->get('password'))])->all());
 
         return redirect()->route('user.index')->withStatus(__('User successfully created.'));
     }
@@ -59,12 +47,11 @@ class UserController extends Controller
      * Show the form for editing the specified user
      *
      * @param  \App\User  $user
-     * @param  \App\Role  $model
      * @return \Illuminate\View\View
      */
-    public function edit(User $user, Role $model)
+    public function edit(User $user)
     {
-        return view('users.edit', ['user' => $user->load('role'), 'roles' => $model->get(['id', 'name'])]);
+        return view('users.edit', compact('user'));
     }
 
     /**
@@ -74,15 +61,13 @@ class UserController extends Controller
      * @param  \App\User  $user
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function update(UserRequest $request, User $user)
+    public function update(UserRequest $request, User  $user)
     {
-        $hasPassword = $request->get('password');
         $user->update(
-            $request->merge([
-                'picture' => $request->photo ? $request->photo->store('profile', 'public') : $user->picture,
-                'password' => Hash::make($request->get('password'))
-            ])->except([$hasPassword ? '' : 'password'])
-        );
+            $request->merge(['password' => Hash::make($request->get('password'))])
+                ->except([$request->get('password') ? '' : 'password']
+        ));
+
         return redirect()->route('user.index')->withStatus(__('User successfully updated.'));
     }
 
@@ -92,7 +77,7 @@ class UserController extends Controller
      * @param  \App\User  $user
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function destroy(User $user)
+    public function destroy(User  $user)
     {
         $user->delete();
 

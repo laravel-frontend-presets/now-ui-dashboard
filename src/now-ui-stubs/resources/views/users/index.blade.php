@@ -30,7 +30,6 @@
                   <th>{{ __('Profile') }}</th>
                   <th>{{ __('Name') }}</th>
                   <th>{{ __('Email') }}</th>
-                  <th>{{ __('Role') }}</th>
                   <th>{{ __('Creation date') }}</th>
                   <th class="disabled-sorting text-right">{{ __('Actions') }}</th>
                 </tr>
@@ -40,7 +39,6 @@
                   <th>{{ __('Profile') }}</th>
                   <th>{{ __('Name') }}</th>
                   <th>{{ __('Email') }}</th>
-                  <th>{{ __('Role') }}</th>
                   <th>{{ __('Creation date') }}</th>
                   <th class="disabled-sorting text-right">{{ __('Actions') }}</th>
                 </tr>
@@ -50,12 +48,11 @@
                   <tr>
                     <td>
                       <span class="avatar avatar-sm rounded-circle">
-                        <img src="{{ $user->profilePicture() }}" alt="" style="max-width: 80px; border-radiu: 100px">
+                        <img src="{{asset('assets')}}/img/default-avatar.png" alt="" style="max-width: 80px; border-radiu: 100px">
                       </span>
                     </td>
                     <td>{{$user->name}}</td>
                     <td>{{$user->email}}</td>
-                    <td>{{$user->role->name}}</td>
                     <td>{{ $user->created_at->format('d/m/Y H:i') }}</td>
                       <td class="text-right">
                       @if($user->id!=auth()->user()->id)

@@ -41,26 +41,6 @@
 
                                     @include('alerts.feedback', ['field' => 'email'])
                                 </div>
-                                <div class="form-group{{ $errors->has('role_id') ? ' has-danger' : '' }}">
-                                    <label class="form-control-label" for="input-role">{{ __('Role') }}</label>
-                                    <select name="role_id" id="input-role" class="form-control{{ $errors->has('role_id') ? ' is-invalid' : '' }}" placeholder="{{ __('Role') }}" required>
-                                        <option value="">-</option>
-                                        @foreach ($roles as $role)
-                                            <option value="{{ $role->id }}" {{ $role->id == old('role_id') ? 'selected' : '' }}>{{ $role->name }}</option>
-                                        @endforeach
-                                    </select>
-
-                                    @include('alerts.feedback', ['field' => 'role_id'])
-                                </div>
-                                <div class="form-group{{ $errors->has('photo') ? ' has-danger' : '' }}">
-                                    <label class="form-control-label" for="input-name">{{ __('Profile photo') }}</label>
-                                    <div class="custom-file">
-                                        <input type="file" name="photo" class="custom-file-input{{ $errors->has('photo') ? ' is-invalid' : '' }}" id="input-picture" accept="image/*">
-                                        <label class="custom-file-label" for="input-picture">{{ __('Select profile photo') }}</label>
-                                    </div>
-
-                                    @include('alerts.feedback', ['field' => 'photo'])
-                                </div>
                                 <div class="form-group{{ $errors->has('password') ? ' has-danger' : '' }}">
                                     <label class="form-control-label" for="input-password">{{ __('Password') }}</label>
                                     <input type="password" name="password" id="input-password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" placeholder="{{ __('Password') }}" value="" required>

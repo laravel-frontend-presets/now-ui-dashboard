@@ -5,9 +5,9 @@ namespace LaravelFrontendPresets\NowUiPreset;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Foundation\Console\Presets\Preset;
 
-class NowUIPreset extends Preset
+class NowUiPreset extends Preset
 {
-    const STUBSPATH = __DIR__.'/nowui-stubs/';
+    const STUBSPATH = __DIR__.'/now-ui-stubs/';
 
     /**
      * Install the preset.
@@ -16,8 +16,8 @@ class NowUIPreset extends Preset
      */
     public static function install()
     {
-        static::updatePackages();     
-        static::updateAssets();      
+        static::updatePackages();
+        static::updateAssets();
         
         static::updateWelcomePage();
         static::updateAuthViews();
@@ -25,6 +25,8 @@ class NowUIPreset extends Preset
         static::updateDashboardPage();
         
         static::addUserManagement();
+
+        static::addAlerts();
         
         // static::removeNodeModules();
     }
@@ -47,7 +49,7 @@ class NowUIPreset extends Preset
      */
     protected static function updateAssets()
     {
-        static::copyDirectory('resources/assets', public_path('nowui'));
+        static::copyDirectory('resources/assets', public_path('assets'));
     }
 
     /**
@@ -72,10 +74,10 @@ class NowUIPreset extends Preset
     protected static function updateDashboardPage()
     {
         // remove default welcome page
-        static::deleteResource(('views/dashboard.blade.php'));
+        static::deleteResource(('views/home.blade.php'));
 
         // copy new one from your stubs folder
-        static::copyFile('resources/views/dashboard.blade.php', resource_path('views/dashboard.blade.php'));
+        static::copyFile('resources/views/home.blade.php', resource_path('views/home.blade.php'));
     }
 
     /**
@@ -87,6 +89,7 @@ class NowUIPreset extends Preset
     {
         // copy new one from your stubs folder
         static::copyDirectory('resources/views/layouts', resource_path('views/layouts'));
+        static::copyDirectory('resources/views/pages', resource_path('views/pages'));
     }
 
     /**
@@ -98,19 +101,23 @@ class NowUIPreset extends Preset
     {
         // Add Home controller
         static::copyFile('app/Http/Controllers/HomeController.php', app_path('Http/Controllers/HomeController.php'));
+        static::copyFile('app/Http/Controllers/PageController.php', app_path('Http/Controllers/PageController.php'));
 
         // Add Auth routes in 'routes/web.php'
         file_put_contents(
-            './routes/web.php', 
-            "Auth::routes();\n\nRoute::get('/home', 'HomeController@index')->name('home');\n\n", 
+            './routes/web.php',
+            "Auth::routes();\n\nRoute::get('/home', 'HomeController@index')->name('home');\n\n",
             FILE_APPEND
         );
         
-        // Copy argon auth views from the stubs folder
+        // Copy now-ui auth views from the stubs folder
         static::deleteResource('views/home.blade.php');
         static::copyDirectory('resources/views/auth', resource_path('views/auth'));
     }
-    
+    public static function addAlerts()
+    {
+        static::copyDirectory('resources/views/alerts', resource_path('views/alerts'));
+    }
     /**
      * Copy user management and profile edit files
      *
@@ -120,6 +127,7 @@ class NowUIPreset extends Preset
     {
         // Add seeder, controllers, requests and rules
         static::copyDirectory('database/seeds', app_path('../database/seeds'));
+        static::copyDirectory('database/factories', app_path('../database/factories'));
                
         static::copyFile('app/Http/Controllers/UserController.php', app_path('Http/Controllers/UserController.php'));
         static::copyFile('app/Http/Controllers/ProfileController.php', app_path('Http/Controllers/ProfileController.php'));
@@ -128,8 +136,8 @@ class NowUIPreset extends Preset
 
         // Add routes
         file_put_contents(
-            './routes/web.php', 
-            "Route::group(['middleware' => 'auth'], function () {\n\tRoute::resource('user', 'UserController', ['except' => ['show']]);\n\tRoute::get('profile', ['as' => 'profile.edit', 'uses' => 'ProfileController@edit']);\n\tRoute::put('profile', ['as' => 'profile.update', 'uses' => 'ProfileController@update']);\n\tRoute::put('profile/password', ['as' => 'profile.password', 'uses' => 'ProfileController@password']);\n});\n\n", 
+            './routes/web.php',
+            "Route::group(['middleware' => 'auth'], function () {\n\tRoute::resource('user', 'UserController', ['except' => ['show']]);\n\tRoute::get('profile', ['as' => 'profile.edit', 'uses' => 'ProfileController@edit']);\n\tRoute::put('profile', ['as' => 'profile.update', 'uses' => 'ProfileController@update']);\n\tRoute::put('profile/password', ['as' => 'profile.password', 'uses' => 'ProfileController@password']);\n\tRoute::get('{page}', ['as' => 'page.index', 'uses' => 'PageController@index']);\n});\n\n",
             FILE_APPEND
         );
 

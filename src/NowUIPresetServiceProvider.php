@@ -15,7 +15,7 @@ class NowUiPresetServiceProvider extends ServiceProvider
     public function boot()
     {
         PresetCommand::macro('nowui', function ($command) {
-            ArgonPreset::install();
+            NowUiPreset::install();
             
             $command->info('Now Ui scaffolding installed successfully.');
         });

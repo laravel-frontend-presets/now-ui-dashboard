@@ -23,14 +23,6 @@
               @include('alerts.success')
               @include('alerts.error_self_update', ['key' => 'not_allow_profile'])
               <div class="row">
-                  <div class="col-md-7 pr-1">
-                    <label class="form-control-label" for="input-name">{{ __('Profile photo') }}</label>
-                    <div class="custom-file">
-                        <input type="file" name="photo" class="custom-file-input{{ $errors->has('photo') ? ' is-invalid' : '' }}" id="input-picture" accept="image/*">
-                        <label class="custom-file-label" for="input-picture">{{ __('Select profile photo') }}</label>
-                    </div>
-                    @include('alerts.feedback', ['field' => 'photo'])
-                  </div>
               </div>
                 <div class="row">
                     <div class="col-md-7 pr-1">
@@ -106,7 +98,7 @@
           <div class="card-body">
             <div class="author">
               <a href="#">
-                <img class="avatar border-gray" src="{{ auth()->user()->profilePicture() }}" alt="...">
+                <img class="avatar border-gray" src="{{asset('assets')}}/img/default-avatar.png" alt="...">
                 <h5 class="title">{{ auth()->user()->name }}</h5>
               </a>
               <p class="description">

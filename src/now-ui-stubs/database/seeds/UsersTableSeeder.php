@@ -16,7 +16,6 @@ class UsersTableSeeder extends Seeder
             'id' => 1,
             'name' => 'Admin',
             'email' => 'admin@nowui.com',
-            'role_id' => 1,
         ]);
     }
 }
