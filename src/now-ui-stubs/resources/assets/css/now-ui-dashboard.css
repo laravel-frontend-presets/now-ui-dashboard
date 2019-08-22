@@ -5864,3 +5864,114 @@ Created using IcoMoon - icomoon.io
     color: #FFFFFF;
     text-decoration: none;
 }
+
+.btn.btn-twitter {
+    background-color: #55acee;
+    color: #fff;
+}
+
+.btn.btn-twitter:focus,
+.btn.btn-twitter:active,
+.btn.btn-twitter:hover {
+    background-color: #3ea1ec !important;
+    color: #fff;
+}
+
+.btn.btn-twitter.btn-simple {
+    color: #55acee;
+    background-color: transparent;
+    box-shadow: none;
+    border-color: #55acee;
+}
+
+.btn.btn-twitter.btn-simple:hover,
+.btn.btn-twitter.btn-simple:focus,
+.btn.btn-twitter.btn-simple:active {
+    color: #3ea1ec;
+    border-color: #3ea1ec;
+}
+
+.btn.btn-twitter.btn-neutral {
+    color: #55acee;
+    background-color: #FFFFFF !important;
+}
+
+.btn.btn-twitter.btn-neutral:hover,
+.btn.btn-twitter.btn-neutral:focus,
+.btn.btn-twitter.btn-neutral:active {
+    color: #3ea1ec !important;
+}
+
+.btn.btn-facebook {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.btn.btn-facebook:focus,
+.btn.btn-facebook:active,
+.btn.btn-facebook:hover {
+    background-color: #344e86 !important;
+    color: #fff;
+}
+
+.btn.btn-facebook.btn-simple {
+    color: #3b5998;
+    background-color: transparent;
+    box-shadow: none;
+    border-color: #3b5998;
+}
+
+.btn.btn-facebook.btn-simple:hover,
+.btn.btn-facebook.btn-simple:focus,
+.btn.btn-facebook.btn-simple:active {
+    color: #344e86;
+    border-color: #344e86;
+}
+
+.btn.btn-facebook.btn-neutral {
+    color: #3b5998;
+    background-color: #FFFFFF !important;
+}
+
+.btn.btn-facebook.btn-neutral:hover,
+.btn.btn-facebook.btn-neutral:focus,
+.btn.btn-facebook.btn-neutral:active {
+    color: #344e86 !important;
+}
+
+.btn.btn-dribbble {
+    background-color: #ea4c89;
+    color: #fff;
+}
+
+.btn.btn-dribbble:focus,
+.btn.btn-dribbble:active,
+.btn.btn-dribbble:hover {
+    background-color: #ed679b !important;
+    color: #fff;
+}
+
+.btn.btn-dribbble.btn-simple {
+    color: #ea4c89;
+    background-color: transparent;
+    box-shadow: none;
+    border-color: #ea4c89;
+}
+
+.btn.btn-dribbble.btn-simple:hover,
+.btn.btn-dribbble.btn-simple:focus,
+.btn.btn-dribbble.btn-simple:active {
+    color: #ed679b;
+    border-color: #ed679b;
+}
+
+.btn.btn-dribbble.btn-neutral {
+    color: #ea4c89;
+    background-color: #FFFFFF !important;
+}
+
+.btn.btn-dribbble.btn-neutral:hover,
+.btn.btn-dribbble.btn-neutral:focus,
+.btn.btn-dribbble.btn-neutral:active {
+    color: #ed679b !important;
+}
