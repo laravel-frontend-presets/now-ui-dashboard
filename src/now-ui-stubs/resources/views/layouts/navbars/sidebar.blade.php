@@ -31,7 +31,7 @@
               <li class="@if ($activePage == 'profile') active @endif">
                 <a href="{{ route('profile.edit') }}">
                   <i class="now-ui-icons users_single-02"></i>
-                  <p> {{ __("Profile") }} </p>
+                  <p> {{ __("User Profile") }} </p>
                 </a>
               </li>
               <li class="@if ($activePage == 'users') active @endif">
@@ -58,12 +58,6 @@
         <a href="{{ route('page.index','notifications') }}">
           <i class="now-ui-icons ui-1_bell-53"></i>
           <p>{{ __('Notifications') }}</p>
-        </a>
-      </li>
-      <li class="@if ($activePage == 'profile') active @endif">
-        <a href="{{ route('profile.edit') }}">
-          <i class="now-ui-icons users_single-02"></i>
-          <p>{{ __('User Profile') }}</p>
         </a>
       </li>
       <li class = " @if ($activePage == 'table') active @endif">

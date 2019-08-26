@@ -34,9 +34,9 @@
                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
               </div>
               @error('email')
-              <span class="invalid-feedback" role="alert">
-                  <strong>{{ $message }}</strong>
-              </span>
+              <span style="display:block;" class="invalid-feedback" role="alert">
+                <strong>{{ $errors->first('email') }}</strong>
+            </span>
               @enderror
             </div>
             <div class="card-footer ">

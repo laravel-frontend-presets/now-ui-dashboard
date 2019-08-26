@@ -92,24 +92,7 @@
                     </span>
                 @endif
                 <!--Begin input user type-->
-                <div class="input-group{{ $errors->has('user_type') ? ' has-danger' : '' }}">
-                  <div class="input-group input-group-alternative">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text"><i class="now-ui-icons design_bullet-list-67"></i></span>
-                    </div>
-                    <select class="form-control{{ $errors->has('user_type') ? ' is-invalid' : '' }}" id="user_type" name="user_type">
-                      <option value="" selected hidden>{{ __('User Type') }}</option>
-                      <option value="1" @if (old('user_type') == 1) selected @endif>{{ __('Admin') }}</option>
-                      <option value="2" @if (old('user_type') == 2) selected @endif>{{ __('Creator') }}</option>
-                      <option value="3" @if (old('user_type') == 3) selected @endif>{{ __('Member') }}</option>
-                    </select>
-                  </div>
-                  @if ($errors->has('user_type'))
-                    <span class="invalid-feedback" style="display: block;" role="alert">
-                      <strong>{{ $errors->first('user_type') }}</strong>
-                    </span>
-                  @endif
-                </div>
+                
                 <!--Begin input password -->
                 <div class="input-group {{ $errors->has('password') ? ' has-danger' : '' }}">
                   <div class="input-group-prepend">
