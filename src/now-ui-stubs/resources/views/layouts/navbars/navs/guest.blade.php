@@ -26,16 +26,6 @@
             <i class="now-ui-icons users_circle-08"></i> {{ __("Login") }}
           </a>
         </li>
-      <li class="nav-item @if ($activePage == 'pricing') active @endif">
-      <a href="#" class="nav-link">
-            <i class="now-ui-icons now-ui-icons business_money-coins"></i> {{ __("Pricing") }}
-          </a>
-        </li>
-      <li class="nav-item @if ($activePage == 'lock') active @endif">
-          <a href="#" class="nav-link">
-            <i class="now-ui-icons ui-1_lock-circle-open"></i>{{ __(" Lock") }}
-          </a>
-        </li>
       </ul>
     </div>
   </div>

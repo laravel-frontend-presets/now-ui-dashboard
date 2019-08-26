@@ -21,7 +21,6 @@
               @csrf
               @method('put')
               @include('alerts.success')
-              @include('alerts.error_self_update', ['key' => 'not_allow_profile'])
               <div class="row">
               </div>
                 <div class="row">
@@ -56,7 +55,6 @@
               @csrf
               @method('put')
               @include('alerts.success', ['key' => 'password_status'])
-              @include('alerts.error_self_update', ['key' => 'not_allow_password'])
               <div class="row">
                 <div class="col-md-7 pr-1">
                   <div class="form-group {{ $errors->has('password') ? ' has-danger' : '' }}">

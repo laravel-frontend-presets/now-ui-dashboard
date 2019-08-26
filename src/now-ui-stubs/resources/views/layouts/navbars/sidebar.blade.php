@@ -19,29 +19,29 @@
         </a>
       </li>
       <li>
-          <a data-toggle="collapse" href="#laravelExamples">
-              <i class="fab fa-laravel"></i>
-            <p>
-              {{ __("Laravel Examples") }}
-              <b class="caret"></b>
-            </p>
-          </a>
-          <div class="collapse show" id="laravelExamples">
-            <ul class="nav">
-              <li class="@if ($activePage == 'profile') active @endif">
-                <a href="{{ route('profile.edit') }}">
-                  <i class="now-ui-icons users_single-02"></i>
-                  <p> {{ __("User Profile") }} </p>
-                </a>
-              </li>
-              <li class="@if ($activePage == 'users') active @endif">
-                <a href="{{ route('user.index') }}">
-                  <i class="now-ui-icons design_bullet-list-67"></i>
-                  <p> {{ __("User Management") }} </p>
-                </a>
-              </li>
-            </ul>
-          </div>
+        <a data-toggle="collapse" href="#laravelExamples">
+            <i class="fab fa-laravel"></i>
+          <p>
+            {{ __("Laravel Examples") }}
+            <b class="caret"></b>
+          </p>
+        </a>
+        <div class="collapse show" id="laravelExamples">
+          <ul class="nav">
+            <li class="@if ($activePage == 'profile') active @endif">
+              <a href="{{ route('profile.edit') }}">
+                <i class="now-ui-icons users_single-02"></i>
+                <p> {{ __("User Profile") }} </p>
+              </a>
+            </li>
+            <li class="@if ($activePage == 'users') active @endif">
+              <a href="{{ route('user.index') }}">
+                <i class="now-ui-icons design_bullet-list-67"></i>
+                <p> {{ __("User Management") }} </p>
+              </a>
+            </li>
+          </ul>
+        </div>
       <li class="@if ($activePage == 'icons') active @endif">
         <a href="{{ route('page.index','icons') }}">
           <i class="now-ui-icons education_atom"></i>
@@ -63,7 +63,7 @@
       <li class = " @if ($activePage == 'table') active @endif">
         <a href="{{ route('page.index','table') }}">
           <i class="now-ui-icons design_bullet-list-67"></i>
-          <p>Table List</p>
+          <p>{{ __('Table List') }}</p>
         </a>
       </li>
       <li class = "@if ($activePage == 'typography') active @endif">

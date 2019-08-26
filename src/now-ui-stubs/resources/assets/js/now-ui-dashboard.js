@@ -4,7 +4,7 @@
  * Now UI Dashboard - v1.3.0
  =========================================================
 
- * Product Page: https://www.creative-tim.com/product/now-ui-dashboard
+ * Product Page: https://www.creative-tim.com/product/now-ui-dashboard-laravel
  * Copyright 2019 Creative Tim (http://www.creative-tim.com) & Updivision (https://updivision.com)
 
  * Designed by www.invisionapp.com Coded by www.creative-tim.com & https://updivision.com
