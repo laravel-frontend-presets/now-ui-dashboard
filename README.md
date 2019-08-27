@@ -437,7 +437,7 @@ The documentation for the now-ui Dashboard Laravel is hosted at our [website](ht
 │               └── welcome.blade.php
 └── .vscode
     └── settings.json
-
+```
 ## Browser Support
 
 At present, we officially aim to support the last two versions of the following browsers:
