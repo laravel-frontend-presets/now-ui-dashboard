@@ -70,7 +70,7 @@
                       <a href="#" class="btn btn-round btn-default disabled">Current Version</a>
                     </td>
                     <td class="text-center">
-                      <a target="_blank" href="https://www.creative-tim.com/product/now-ui-dashboard-pro?ref=nud-free-upgrade-live" class="btn btn-round btn-primary">Upgrade to PRO</a>
+                      <a target="_blank" href="https://www.creative-tim.com/product/now-ui-dashboard-pro-laravel?ref=nud-free-upgrade-live" class="btn btn-round btn-primary">Upgrade to PRO</a>
                     </td>
                   </tr>
                 </tbody>
