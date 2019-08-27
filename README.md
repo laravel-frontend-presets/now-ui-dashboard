@@ -133,7 +133,7 @@ public function rules()
         ]
     ];
 }
-
+```
 
 The policy which authorizes the user to access the user management pages is implemented in `App\Policies\UserPolicy.php`.``
 
@@ -188,7 +188,7 @@ public function store(UserRequest $request, User $model)
 The documentation for the now-ui Dashboard Laravel is hosted at our [website](https://now-ui-dashboard-pro-laravel.creative-tim.com/docs/getting-started/laravel-setup.html?ref=ndl-readme).
 
 ## File Structure
-.
+```
 ├── changelog.md
 ├── composer.json
 ├── docs
