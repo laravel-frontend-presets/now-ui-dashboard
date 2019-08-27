@@ -177,11 +177,11 @@ public function store(UserRequest $request, User $model)
 
 | Register | Login | Dashboard |
 | --- | --- | ---  |
-| [![Register](https://github.com/creativetimofficial/public-assets/raw/master/now-ui-dashboard-pro-laravel/register.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/register?ref=ndl-readme)  | [![Login](https://github.com/creativetimofficial/public-assets/raw/master/now-ui-dashboard-pro-laravel/login.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/login?ref=ndl-readme)  | [![Dashboard](https://github.com/creativetimofficial/public-assets/raw/master/now-ui-dashboard-pro-laravel/dashboard.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/?ref=ndl-readme)
+| [![Register](/screens/register.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/register?ref=ndl-readme)  | [![Login](screens/login.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/login?ref=ndl-readme)  | [![Dashboard](/screens/dashboard.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/?ref=ndl-readme)
 
 | Profile Page | Users Page | Tables Page  |
 | --- | --- | ---  |
-| [![Profile Page](https://github.com/creativetimofficial/public-assets/raw/master/now-ui-dashboard-pro-laravel/profile.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/profile?ref=ndl-readme)  | [![Users Page](https://github.com/creativetimofficial/public-assets/raw/master/now-ui-dashboard-pro-laravel/users.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/user?ref=ndl-readme) | [![Tables Page](https://github.com/creativetimofficial/public-assets/raw/master/now-ui-dashboard-pro-laravel/tables.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/table-list?ref=ndl-readme)
+| [![Profile Page](/screens/profile.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/profile?ref=ndl-readme)  | [![Users Page](/screens/users.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/user?ref=ndl-readme)
 [View More](https://now-ui-dashboard-pro-laravel.creative-tim.com/?ref=ndl-readme)
 
 ## Documentation
