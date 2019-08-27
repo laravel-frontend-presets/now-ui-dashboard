@@ -4,7 +4,7 @@
 
 *Frontend version*: Now UI Dashboard v1.4.1. More info at https://www.creative-tim.com/product/now-ui-dashboard-pro/?ref=ndl-readme
 
-![Product Image](/screens/nowgif/intro.gif?raw=true)
+![Product Image](/screens/nowgif.gif)
 
 Speed up your web development with the Bootstrap 4 Admin Dashboard built for Laravel Framework 5.5 and up.
 
@@ -175,12 +175,12 @@ public function store(UserRequest $request, User $model)
 
 ## Demo
 
-| Register | Login | Dashboard |
-| --- | --- | ---  |
-| [![Register](/screens/register.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/register?ref=ndl-readme)  | [![Login](screens/login.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/login?ref=ndl-readme)  | [![Dashboard](/screens/dashboard.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/?ref=ndl-readme)
+| Login | Dashboard |
+| --- | --- |
+[![Login](screens/login.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/login?ref=ndl-readme)  | [![Dashboard](/screens/dashboard.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/?ref=ndl-readme)
 
-| Profile Page | Users Page | Tables Page  |
-| --- | --- | ---  |
+| Profile Page | Users Page |
+| --- | --- |
 | [![Profile Page](/screens/profile.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/profile?ref=ndl-readme)  | [![Users Page](/screens/users.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/user?ref=ndl-readme)
 [View More](https://now-ui-dashboard-pro-laravel.creative-tim.com/?ref=ndl-readme)
 
