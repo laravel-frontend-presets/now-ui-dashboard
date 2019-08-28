@@ -8,4 +8,4 @@ All notable changes to `Now Ui Dashboard` frontend preset for Laravel will be do
 - Now Ui v1.4.0 frontend theme
 - Laravel Auth preset
 - Change user profile
-- User CRUD
+- User CRUD 
