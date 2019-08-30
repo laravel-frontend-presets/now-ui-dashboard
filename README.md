@@ -171,7 +171,7 @@ public function store(UserRequest $request, User $model)
 
 | HTML | LARAVEL |
 | --- | --- |
-| [![now-ui Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/51/original/opt_mdp_thumbnail.jpg?1521134752)](https://demos.creative-tim.com/now-ui-dashboard/examples/dashboard.html?ref=ndl-readme) | [![now-ui Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/158/original/opt_mdp_laravel_thumbnail.jpg)](https://www.creative-tim.com/live/now-ui-dashboard-laravel/?ref=ndl-readme)
+| [![now-ui Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/75/original/opt_nud_thumbnail.jpg?1518795544)](https://demos.creative-tim.com/now-ui-dashboard/examples/dashboard.html?ref=ndl-readme) | [![now-ui Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/211/original/opt_nud_laravel_thumbnail.jpg?1567087282)](https://www.creative-tim.com/live/now-ui-dashboard-laravel/?ref=ndl-readme)
 
 ## Demo
 
@@ -456,7 +456,7 @@ At present, we officially aim to support the last two versions of the following 
 
 | HTML | LARAVEL |
 | --- | --- |
-| [![now-ui Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/51/original/opt_mdp_thumbnail.jpg?1521134752)](https://demos.creative-tim.com/now-ui-dashboard-pro/examples/dashboard.html?ref=ndl-readme) | [![now-ui Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/158/original/opt_mdp_laravel_thumbnail.jpg)](https://www.creative-tim.com/live/now-ui-dashboard-laravel/?ref=ndl-readme)
+| [![now-ui Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/75/original/opt_nud_thumbnail.jpg?1518795544)](https://demos.creative-tim.com/now-ui-dashboard/examples/dashboard.html?ref=ndl-readme) | [![now-ui Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/211/original/opt_nud_laravel_thumbnail.jpg?1567087282)](https://www.creative-tim.com/live/now-ui-dashboard-laravel/?ref=ndl-readme)
 
 ## Change log
 
