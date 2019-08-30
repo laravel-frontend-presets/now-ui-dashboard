@@ -1,8 +1,8 @@
-# [Now-ui Dashboard Pro Laravel](https://now-ui-dashboard-pro-laravel.creative-tim.com/?ref=ndl-readme) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=now-ui%20Dashboard%20Pro%20Laravel%E2%9D%A4%EF%B8%8F%0Ahttps%3A//now-ui-dashboard-pro-laravel.creative-tim.com/%20%23%now-ui%20%23design%20%23dashboard%20%23laravel%20%23pro%20via%20%40CreativeTim)
+# [Now-ui Dashboard Laravel](https://now-ui-dashboard-laravel.creative-tim.com/?ref=ndl-readme) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=now-ui%20Dashboard%20Pro%20Laravel%E2%9D%A4%EF%B8%8F%0Ahttps%3A//now-ui-dashboard-laravel.creative-tim.com/%20%23%now-ui%20%23design%20%23dashboard%20%23laravel%20%23pro%20via%20%40CreativeTim)
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-now-ui-dashboard-pro-laravel.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-now-ui-dashboard-pro-laravel/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-now-ui-dashboard-pro-laravel/ct-now-ui-dashboard-pro-laravel.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-now-ui-dashboard-pro-laravel/issues?q=is%3Aissue+is%3Aclosed)
+![version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-now-ui-dashboard-laravel.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-now-ui-dashboard-laravel/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-now-ui-dashboard-laravel/ct-now-ui-dashboard-laravel.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-now-ui-dashboard-laravel/issues?q=is%3Aissue+is%3Aclosed)
 
-*Frontend version*: Now UI Dashboard v1.4.1. More info at https://www.creative-tim.com/product/now-ui-dashboard-pro/?ref=ndl-readme
+*Frontend version*: Now UI Dashboard v1.4.1. More info at https://www.creative-tim.com/product/now-ui-dashboard/?ref=ndl-readme
 
 ![Product Image](/screens/nowgif.gif)
 
@@ -46,7 +46,7 @@ After initializing a fresh instance of Laravel (and making all the necessary con
 
 ## Usage
 
-To start testing the Pro theme, register as a user or log in using one of the default users: 
+To start testing the theme, register as a user or log in using one of the default users: 
 
 - admin type - **admin@nowui.com** with the password **secret**
 
@@ -167,25 +167,25 @@ public function store(UserRequest $request, User $model)
 ## Versions
 
 [<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/html-logo.jpg?raw=true" width="60" height="60" />](https://demos.creative-tim.com/argon-dashboard-pro/pages/dashboards/dashboard.html?ref=ndl-readme)
-[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/laravel_logo.png?raw=true" width="60" height="60" />](https://argon-dashboard-pro-laravel.creative-tim.com/?ref=ndl-readme)
+[<img src="https://github.com/creativetimofficial/public-assets/blob/master/logos/laravel_logo.png?raw=true" width="60" height="60" />](https://argon-dashboard-laravel.creative-tim.com/?ref=ndl-readme)
 
 | HTML | LARAVEL |
 | --- | --- |
-| [![now-ui Dashboard Pro HTML](https://s3.amazonaws.com/creativetim_bucket/products/51/original/opt_mdp_thumbnail.jpg?1521134752)](https://demos.creative-tim.com/now-ui-dashboard-pro/examples/dashboard.html?ref=ndl-readme) | [![now-ui Dashboard Pro Laravel](https://s3.amazonaws.com/creativetim_bucket/products/158/original/opt_mdp_laravel_thumbnail.jpg)](https://now-ui-dashboard-pro-laravel.creative-tim.com/?ref=ndl-readme)
+| [![now-ui Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/51/original/opt_mdp_thumbnail.jpg?1521134752)](https://demos.creative-tim.com/now-ui-dashboard/examples/dashboard.html?ref=ndl-readme) | [![now-ui Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/158/original/opt_mdp_laravel_thumbnail.jpg)](https://www.creative-tim.com/live/now-ui-dashboard-laravel/?ref=ndl-readme)
 
 ## Demo
 
 | Login | Dashboard |
 | --- | --- |
-[![Login](screens/login.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/login?ref=ndl-readme)  | [![Dashboard](/screens/dashboard.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/?ref=ndl-readme)
+[![Login](screens/login.png)](https://now-ui-dashboard-laravel.creative-tim.com/login?ref=ndl-readme)  | [![Dashboard](/screens/dashboard.png)](https://now-ui-dashboard-laravel.creative-tim.com/?ref=ndl-readme)
 
 | Profile Page | Users Page |
 | --- | --- |
-| [![Profile Page](/screens/profile.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/profile?ref=ndl-readme)  | [![Users Page](/screens/users.png)](https://now-ui-dashboard-pro-laravel.creative-tim.com/user?ref=ndl-readme)
-[View More](https://now-ui-dashboard-pro-laravel.creative-tim.com/?ref=ndl-readme)
+| [![Profile Page](/screens/profile.png)](https://now-ui-dashboard-laravel.creative-tim.com/profile?ref=ndl-readme)  | [![Users Page](/screens/users.png)](https://now-ui-dashboard-laravel.creative-tim.com/user?ref=ndl-readme)
+[View More](https://www.creative-tim.com/live/now-ui-dashboard-laravel/?ref=ndl-readme)
 
 ## Documentation
-The documentation for the now-ui Dashboard Laravel is hosted at our [website](https://now-ui-dashboard-pro-laravel.creative-tim.com/docs/getting-started/laravel-setup.html?ref=ndl-readme).
+The documentation for the now-ui Dashboard Laravel is hosted at our [website](https://www.creative-tim.com/live/now-ui-dashboard-laravel/?start-page=/docs/getting-started/laravel-setup.html?ref=ndl-readme).
 
 ## File Structure
 ```
@@ -446,17 +446,17 @@ At present, we officially aim to support the last two versions of the following 
 
 
 ## Resources
-- Demo: <https://now-ui-dashboard-pro-laravel.creative-tim.com/?ref=ndl-readme>
-- Download Page: <https://www.creative-tim.com/product/now-ui-dashboard-pro-laravel?ref=ndl-readme>
-- Documentation: <https://now-ui-dashboard-pro-laravel.creative-tim.com/docs/getting-started/laravel-setup.html?ref=ndl-readme>
+- Demo: <https://www.creative-tim.com/live/now-ui-dashboard-laravel/&ref=ndl-readme>
+- Download Page: <https://www.creative-tim.com/product/now-ui-dashboard-laravel?ref=ndl-readme>
+- Documentation: <https://www.creative-tim.com/live/now-ui-dashboard-laravel/?start-page=/docs/getting-started/laravel-setup.html?ref=ndl-readme>
 - License Agreement: <https://www.creative-tim.com/license?ref=ndl-readme>
 - Support: <https://www.creative-tim.com/contact-us?ref=ndl-readme>
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/now-ui-dashboard-pro-laravel/issues)
+- Issues: [Github Issues Page](https://github.com/creativetimofficial/now-ui-dashboard-laravel/issues)
 - **Dashboards:**
 
 | HTML | LARAVEL |
 | --- | --- |
-| [![now-ui Dashboard Pro HTML](https://s3.amazonaws.com/creativetim_bucket/products/51/original/opt_mdp_thumbnail.jpg?1521134752)](https://demos.creative-tim.com/now-ui-dashboard-pro/examples/dashboard.html?ref=ndl-readme) | [![now-ui Dashboard Pro Laravel](https://s3.amazonaws.com/creativetim_bucket/products/158/original/opt_mdp_laravel_thumbnail.jpg)](https://now-ui-dashboard-pro-laravel.creative-tim.com/?ref=ndl-readme)
+| [![now-ui Dashboard HTML](https://s3.amazonaws.com/creativetim_bucket/products/51/original/opt_mdp_thumbnail.jpg?1521134752)](https://demos.creative-tim.com/now-ui-dashboard-pro/examples/dashboard.html?ref=ndl-readme) | [![now-ui Dashboard Laravel](https://s3.amazonaws.com/creativetim_bucket/products/158/original/opt_mdp_laravel_thumbnail.jpg)](https://www.creative-tim.com/live/now-ui-dashboard-laravel/&ref=ndl-readme)
 
 ## Change log
 
