@@ -18,6 +18,8 @@ If you don't already have an Apache local environment with PHP and MySQL, use on
 
 Also, you will need to install Composer: https://getcomposer.org/doc/00-intro.md
 
+And Laravel: https://laravel.com/docs/6.x/installation
+
 ## Installation
 
 After initializing a fresh instance of Laravel (and making all the necessary configurations), install the preset using one of the provided methods:
