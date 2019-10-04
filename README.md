@@ -66,7 +66,7 @@ You have the option to edit the current logged in user's profile information (na
 
 The `App\Htttp\Controlers\ProfileController` handles the update of the user information and password.
 
-```
+```php
 public function update(ProfileRequest $request)
     {
         auth()->user()->update(
@@ -93,7 +93,7 @@ public function password(PasswordRequest $request)
 
 If you input the wrong data when editing the profile, don`t worry. Validation rules have been added to prevent this (see `App\Http\Requests\ProfileRequest`). If you try to change the password, you will see that additional validation rules have been added in `App\Http\Requests\PasswordRequest`. You also have  a custom validation rule that can be found in `App\Rules\CurrentPasswordCheckRule`.
 
-```
+```php
 public function rules()
 {
     return [
@@ -110,7 +110,7 @@ public function rules()
 The theme comes with an out of the box user management option. To access this option ,click the "**Examples/User Management**" link in the left sidebar or add **/user** to the URL.
 The first thing you will see is a list of existing users. You can add new ones by clicking the "**Add user**" button (above the table on the right). On the Add user page, you will find a form which allows you to fill out the user`s name, email, role and password. All pages are generated using blade templates:
 
-```
+```php
 <div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }}">
     <label class="form-control-label" for="input-name">{{ __('Name') }}</label>
     <input type="text" name="name" id="input-name" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" placeholder="{{ __('Name') }}" value="{{ old('name') }}" required autofocus>
@@ -120,7 +120,7 @@ The first thing you will see is a list of existing users. You can add new ones b
 
 Validation rules were added to prevent errors in the form fields (see `App\Http\Requests\UserRequest`). Note that these validation rules also apply for the user edit option.
 
-```
+```php
 public function rules()
 {
     return [
@@ -143,7 +143,7 @@ Once you add more users, the list will grow and for every user you will have edi
 
 All the sample code for the user management can be found in `App\Http\Controllers\UserController`. See store method example bellow:
 
-```
+```php
 public function store(UserRequest $request, User $model)
 {
     $model->create($request->merge([
