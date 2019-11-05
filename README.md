@@ -36,7 +36,7 @@ After initializing a fresh instance of Laravel (and making all the necessary con
 ### By using the archive
 
 1. In your application's root create a **presets** folder
-2. [Download an archive](https://github.com/laravel-frontend-presets/now-ui/archive/master.zip) of the repo and unzip it
+2. [Download an archive](https://github.com/laravel-frontend-presets/now-ui-dashboard/archive/master.zip) of the repo and unzip it
 3. Copy and paste **now-ui-master** folder in presets (created in step 2) and rename it to **NowUi**
 4. Open `composer.json` file 
 5. Add `"LaravelFrontendPresets\\NowUiPreset\\": "presets/NowUi/src"` to `autoload/psr-4` and to `autoload-dev/psr-4`
