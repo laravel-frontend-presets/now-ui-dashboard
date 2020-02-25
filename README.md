@@ -28,7 +28,7 @@ After initializing a fresh instance of Laravel (and making all the necessary con
 
 1. `Cd` to your Laravel app  
 2. Install this preset via `composer require laravel-frontend-presets/now-ui-dashboard`. No need to register the service provider. Laravel 5.5 & up can auto detect the package.
-3. Run `php artisan preset nowui` command to install the Argon preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
+3. Run `php artisan preset nowui` command to install the NowUI preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
 (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in routes/web.php)
 4. In your terminal run `composer dump-autoload`
 5. Run `php artisan migrate --seed` to create basic users table
@@ -42,7 +42,7 @@ After initializing a fresh instance of Laravel (and making all the necessary con
 5. Add `"LaravelFrontendPresets\\NowUiPreset\\": "presets/NowUi/src"` to `autoload/psr-4` and to `autoload-dev/psr-4`
 6. Add `LaravelFrontendPresets\NowUiPreset\NowUiPresetServiceProvider::class` to `config/app.php` file
 7. In your terminal run `composer dump-autoload`
-8. Run `php artisan preset nowui` command to install the Argon preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
+8. Run `php artisan preset nowui` command to install the NowUI preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
 (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in routes/web.php)
 9. Run `php artisan migrate --seed` to create basic users table
 
@@ -64,7 +64,7 @@ You can access the dashboard either by using the "**Dashboards/Dashboard**" link
 
 You have the option to edit the current logged in user's profile information (name, email, profile picture) and password. To access this page, just click the "**Examples/Profile**" link in the left sidebar or add **/profile** in the URL.
 
-The `App\Htttp\Controlers\ProfileController` handles the update of the user information and password.
+The `App\Http\Controllers\ProfileController` handles the update of the user information and password.
 
 ```
 public function update(ProfileRequest $request)
@@ -91,7 +91,7 @@ public function password(PasswordRequest $request)
 }
 ```
 
-If you input the wrong data when editing the profile, don`t worry. Validation rules have been added to prevent this (see `App\Http\Requests\ProfileRequest`). If you try to change the password, you will see that additional validation rules have been added in `App\Http\Requests\PasswordRequest`. You also have  a custom validation rule that can be found in `App\Rules\CurrentPasswordCheckRule`.
+If you input the wrong data when editing the profile, don't worry. Validation rules have been added to prevent this (see `App\Http\Requests\ProfileRequest`). If you try to change the password, you will see that additional validation rules have been added in `App\Http\Requests\PasswordRequest`. You also have  a custom validation rule that can be found in `App\Rules\CurrentPasswordCheckRule`.
 
 ```
 public function rules()
