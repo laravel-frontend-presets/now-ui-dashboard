@@ -382,8 +382,6 @@ The documentation for the now-ui Dashboard Laravel is hosted at our [website](ht
 │               ├── profile
 │               │   └── edit.blade.php
 │               ├── users
-│               │   ├── create.blade.php
-│               │   ├── edit.blade.php
 │               │   └── index.blade.php
 │               └── welcome.blade.php
 └── .vscode
