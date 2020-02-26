@@ -103,57 +103,6 @@ public function rules()
     ];
 }
 ```
-
-
-### User management
-
-The theme comes with an out of the box user management option. To access this option ,click the "**Examples/User Management**" link in the left sidebar or add **/user** to the URL.
-The first thing you will see is a list of existing users. You can add new ones by clicking the "**Add user**" button (above the table on the right). On the Add user page, you will find a form which allows you to fill out the user`s name, email, role and password. All pages are generated using blade templates:
-
-```
-<div class="form-group{{ $errors->has('name') ? ' has-danger' : '' }}">
-    <label class="form-control-label" for="input-name">{{ __('Name') }}</label>
-    <input type="text" name="name" id="input-name" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" placeholder="{{ __('Name') }}" value="{{ old('name') }}" required autofocus>
-    @include('alerts.feedback', ['field' => 'name'])
-</div>
-```
-
-Validation rules were added to prevent errors in the form fields (see `App\Http\Requests\UserRequest`). Note that these validation rules also apply for the user edit option.
-
-```
-public function rules()
-{
-    return [
-        'name' => [
-            'required', 'min:3'
-        ],
-        'email' => [
-            'required', 'email', Rule::unique((new User)->getTable())->ignore($this->route()->user->id ?? null)
-        ],
-        'password' => [
-            $this->route()->user ? 'nullable' : 'required', 'confirmed', 'min:6'
-        ]
-    ];
-}
-```
-
-The policy which authorizes the user to access the user management pages is implemented in `App\Policies\UserPolicy.php`.``
-
-Once you add more users, the list will grow and for every user you will have edit and delete options (access these options by clicking the three dotted menu that appears at the end of every row).
-
-All the sample code for the user management can be found in `App\Http\Controllers\UserController`. See store method example bellow:
-
-```
-public function store(UserRequest $request, User $model)
-{
-    $model->create($request->merge([
-        'picture' => $request->photo ? $request->photo->store('profile', 'public') : null,
-        'password' => Hash::make($request->get('password'))
-    ])->all());
-
-    return redirect()->route('user.index')->withStatus(__('User successfully created.'));
-}
-```
 ## Table of Contents
 
 * [Versions](#versions)
@@ -433,8 +382,6 @@ The documentation for the now-ui Dashboard Laravel is hosted at our [website](ht
 │               ├── profile
 │               │   └── edit.blade.php
 │               ├── users
-│               │   ├── create.blade.php
-│               │   ├── edit.blade.php
 │               │   └── index.blade.php
 │               └── welcome.blade.php
 └── .vscode

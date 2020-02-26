@@ -24,6 +24,56 @@
                   <th class="text-center">PRO</th>
                 </thead>
                 <tbody>
+                    <tr>
+                        <td><h3 class="text-primary mb-0 mt-3">Laravel</h3></td>
+                        <td class="text-center"></td>
+                        <td class="text-center"></td>
+                      </tr>
+                      <tr>
+                        <td>Login, Register, Forgot password pages</td>
+                        <td class="text-center"><i class="fa fa-check text-success"></i></td>
+                        <td class="text-center"><i class="fa fa-check text-success"></i></td>
+                      </tr>
+                      <tr>
+                        <td>User profile</td>
+                        <td class="text-center"><i class="fa fa-check text-success"></i></td>
+                        <td class="text-center"><i class="fa fa-check text-success"></i></td>
+                      </tr>
+                      <tr>
+                        <td>Users management</td>
+                        <td class="text-center"><i class="fa fa-times text-danger"></i></td>
+                        <td class="text-center"><i class="fa fa-check text-success"></i></td>
+                      </tr>
+                      <tr>
+                        <td>User roles management </td>
+                        <td class="text-center"><i class="fa fa-times text-danger"></i></td>
+                        <td class="text-center"><i class="fa fa-check text-success"></i></td>
+                      </tr>
+                      <tr>
+                        <td>Items management </td>
+                        <td class="text-center"><i class="fa fa-times text-danger"></i></td>
+                        <td class="text-center"><i class="fa fa-check text-success"></i></td>
+                      </tr>
+                      <tr>
+                        <td>Categories management, Tags management </td>
+                        <td class="text-center"><i class="fa fa-times text-danger"></i></td>
+                        <td class="text-center"><i class="fa fa-check text-success"></i></td>
+                      </tr>
+                      <tr>
+                        <td>Image upload, date picker inputs</td>
+                        <td class="text-center"><i class="fa fa-times text-danger"></i></td>
+                        <td class="text-center"><i class="fa fa-check text-success"></i></td>
+                      </tr>
+                      <tr>
+                        <td>Radio button, checkbox, toggle inputs</td>
+                        <td class="text-center"><i class="fa fa-times text-danger"></i></td>
+                        <td class="text-center"><i class="fa fa-check text-success"></i></td>
+                      </tr>
+                      <tr>
+                        <td><h3 class="text-primary mb-0 mt-3">Frontend</h3></td>
+                        <td class="text-center"></td>
+                        <td class="text-center"></td>
+                      </tr>
                   <tr>
                     <td>Components</td>
                     <td class="text-center">16</td>
@@ -62,7 +112,7 @@
                   <tr>
                     <td></td>
                     <td class="text-center">Free</td>
-                    <td class="text-center">Just $49</td>
+                    <td class="text-center">Just $149</td>
                   </tr>
                   <tr>
                     <td class="text-center"></td>
