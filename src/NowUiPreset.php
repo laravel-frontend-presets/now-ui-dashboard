@@ -3,7 +3,7 @@
 namespace LaravelFrontendPresets\NowUiPreset;
 
 use Illuminate\Filesystem\Filesystem;
-use Illuminate\Foundation\Console\Presets\Preset;
+use Laravel\Ui\Presets\Preset;
 
 class NowUiPreset extends Preset
 {
