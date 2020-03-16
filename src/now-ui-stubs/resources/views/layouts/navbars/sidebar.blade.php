@@ -73,7 +73,7 @@
         </a>
       </li>
       <li class = "@if ($activePage == 'upgrade') active @endif active-pro">
-        <a href="{{ route('page.index','upgrade') }}">
+        <a href="{{ route('page.index','upgrade') }}" class="color-ev">
           <i class="now-ui-icons arrows-1_cloud-download-93"></i>
           <p>{{ __('Upgrade to PRO') }}</p>
         </a>

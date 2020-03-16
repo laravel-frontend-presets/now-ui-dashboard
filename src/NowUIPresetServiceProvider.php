@@ -4,6 +4,8 @@ namespace LaravelFrontendPresets\NowUiPreset;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\Console\PresetCommand;
+use Laravel\Ui\UiCommand; 
+use Laravel\Ui\AuthCommand;
 
 class NowUiPresetServiceProvider extends ServiceProvider
 {
@@ -14,7 +16,7 @@ class NowUiPresetServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        PresetCommand::macro('nowui', function ($command) {
+        UiCommand::macro('nowui', function ($command) {
             NowUiPreset::install();
             
             $command->info('Now Ui scaffolding installed successfully.');
