@@ -42,8 +42,8 @@ After initializing a fresh instance of Laravel (and making all the necessary con
 4. Open `composer.json` file 
 5. Add `"LaravelFrontendPresets\\NowUiPreset\\": "presets/NowUi/src"` to `autoload/psr-4` and to `autoload-dev/psr-4`
 6. Add `LaravelFrontendPresets\NowUiPreset\NowUiPresetServiceProvider::class` to `config/app.php` file
-7. In your terminal run `composer dump-autoload`
-8. Type in your terminal: `composer require laravel/ui` and  `php artisan ui vue --auth`
+7. Type in your terminal: `composer require laravel/ui` and  `php artisan ui vue --auth`
+8. In your terminal run `composer dump-autoload`
 9. Run `php artisan ui nowui` command to install the NowUI preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
 (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in routes/web.php)
 10. Run `php artisan migrate --seed` to create basic users table
