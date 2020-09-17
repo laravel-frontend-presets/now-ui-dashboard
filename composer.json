@@ -5,7 +5,9 @@
     "homepage": "https://github.com/creativetimofficial/now-ui-dashboard-laravel",
     "keywords": ["Laravel", "Preset", "Now UI"],
     "require": {
-        "laravel/framework": "^7.0"
+        "laravel/framework": "^8.0",
+        "laravel/legacy-factories": "^1.0"
+
     },
     "autoload": {
         "psr-4": {
