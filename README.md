@@ -1,3 +1,9 @@
+<a href="https://www.creative-tim.com/campaign?utm_medium=social&utm_source=github&utm_campaign=cm-readme-2020">
+<img border="0" alt="Creative Tim Cyber Monday Offer" src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/cm-github-banner.jpg" >
+</a>
+
+
+
 # [Now-ui Dashboard Laravel](https://www.creative-tim.com/live/now-ui-dashboard-laravel/?ref=ndl-readme) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=now-ui%20Dashboard%20Pro%20Laravel%E2%9D%A4%EF%B8%8F%0Ahttps%3A//now-ui-dashboard-laravel.creative-tim.com/%20%23%now-ui%20%23design%20%23dashboard%20%23laravel%20%23pro%20via%20%40CreativeTim)
 
 ![version](https://img.shields.io/badge/version-1.0.1-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/laravel-frontend-presets/now-ui-dashboard.svg?maxAge=2592000)](https://github.com/laravel-frontend-presets/now-ui-dashboard/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/laravel-frontend-presets/now-ui-dashboard.svg?maxAge=2592000)](https://github.com/laravel-frontend-presets/now-ui-dashboard/issues?q=is%3Aissue+is%3Aclosed)
@@ -18,7 +24,7 @@ If you don't already have an Apache local environment with PHP and MySQL, use on
 
 Also, you will need to install Composer: https://getcomposer.org/doc/00-intro.md
 
-And Laravel: https://laravel.com/docs/7.x/installation
+And Laravel: https://laravel.com/docs/8.x/installation
 
 ## Installation
 
