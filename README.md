@@ -3,8 +3,7 @@
 ![version](https://img.shields.io/badge/version-1.0.1-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/laravel-frontend-presets/now-ui-dashboard.svg?maxAge=2592000)](https://github.com/laravel-frontend-presets/now-ui-dashboard/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/laravel-frontend-presets/now-ui-dashboard.svg?maxAge=2592000)](https://github.com/laravel-frontend-presets/now-ui-dashboard/issues?q=is%3Aissue+is%3Aclosed)
 
 *Frontend version*: Now UI Dashboard v1.4.1. More info at https://www.creative-tim.com/product/now-ui-dashboard/?ref=ndl-readme
-
-![Product Image](/screens/nowgif.gif)
+[<img src="https://s3.amazonaws.com/creativetim_bucket/products/211/original/opt_nud_laravel_thumbnail.jpg?1567087282" width="100%" />](https://www.creative-tim.com/live/now-ui-dashboard-laravel/?ref=ndl-readme)
 
 Speed up your web development with the Bootstrap 4 Admin Dashboard built for Laravel Framework 8.x and up.
 
