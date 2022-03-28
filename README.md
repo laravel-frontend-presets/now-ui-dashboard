@@ -6,7 +6,7 @@
 
 ![Product Image](/screens/nowgif.gif)
 
-Speed up your web development with the Bootstrap 4 Admin Dashboard built for Laravel Framework 8.x and up.
+Speed up your web development with the Bootstrap 4 Admin Dashboard built for Laravel Framework 9.x and up.
 
 ## Prerequisites
 
@@ -18,7 +18,7 @@ If you don't already have an Apache local environment with PHP and MySQL, use on
 
 Also, you will need to install Composer: https://getcomposer.org/doc/00-intro.md
 
-And Laravel: https://laravel.com/docs/8.x/installation
+And Laravel: https://laravel.com/docs/9.x/installation
 
 ## Installation
 

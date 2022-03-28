@@ -18,6 +18,10 @@ All notable changes to `Now Ui Dashboard` frontend preset for Laravel will be do
 
 - Update to Laravel 7.x
 
-## Version 1.0.3 - 2020-09-121
+## Version 1.0.3 - 2020-09-21
 
 - Update to Laravel 8.x
+
+## Version 1.0.4 - 2022-03-28
+
+- Update to Laravel 9.x
