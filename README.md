@@ -4,7 +4,7 @@
 
 *Frontend version*: Now UI Dashboard v1.4.1. More info at https://www.creative-tim.com/product/now-ui-dashboard/?ref=ndl-readme
 
-![Product Image](/screens/nowgif.gif)
+[<img src="https://s3.amazonaws.com/creativetim_bucket/products/211/original/opt_nud_laravel_thumbnail.jpg" width="100%" />](https://www.creative-tim.com/live/now-ui-dashboard-laravel) 
 
 Speed up your web development with the Bootstrap 4 Admin Dashboard built for Laravel Framework 9.x and up.
 
