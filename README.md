@@ -8,6 +8,8 @@
 
 Speed up your web development with the Bootstrap 4 Admin Dashboard built for Laravel Framework 9.x and up.
 
+If you want to get more features, go PRO with [Now UI Dashboard PRO Laravel](https://www.creative-tim.com/product/now-ui-dashboard-pro-laravel).
+
 ## Prerequisites
 
 If you don't already have an Apache local environment with PHP and MySQL, use one of the following links:
