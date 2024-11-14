@@ -6,7 +6,7 @@
 
 [<img src="https://s3.amazonaws.com/creativetim_bucket/products/211/original/opt_nud_laravel_thumbnail.jpg" width="100%" />](https://www.creative-tim.com/live/now-ui-dashboard-laravel) 
 
-Speed up your web development with the Bootstrap 4 Admin Dashboard built for Laravel Framework 9.x and up.
+Speed up your web development with the Bootstrap 4 Admin Dashboard built for Laravel Framework 11.x and up.
 
 If you want to get more features, go PRO with [Now UI Dashboard PRO Laravel](https://www.creative-tim.com/product/now-ui-dashboard-pro-laravel).
 
@@ -18,7 +18,7 @@ If you don't already have an Apache local environment with PHP and MySQL, use on
  - Linux & Mac: https://updivision.com/blog/post/guide-what-is-lamp-and-how-to-install-it-on-ubuntu-and-macos
 
 Also, you will need to install Composer: https://getcomposer.org/doc/00-intro.md  
-And Laravel: https://laravel.com/docs/10.x
+And Laravel: https://laravel.com/docs/11.x
 
 ## Installation
 

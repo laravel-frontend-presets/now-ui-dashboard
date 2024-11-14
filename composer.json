@@ -1,11 +1,11 @@
 {
     "name": "laravel-frontend-presets/now-ui-dashboard",
-    "description": "Laravel 10.x Front-end preset for now ui dashboard",
+    "description": "Laravel 11.x Front-end preset for now ui dashboard",
     "license": "MIT",
     "homepage": "https://github.com/creativetimofficial/now-ui-dashboard-laravel",
     "keywords": ["Laravel", "Preset", "Now UI"],
     "require": {
-        "laravel/framework": "^10.0",
+        "laravel/framework": "^11.0",
         "laravel/legacy-factories": "^1.0"
 
     },
